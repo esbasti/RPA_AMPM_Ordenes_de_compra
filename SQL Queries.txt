@@ -1,0 +1,78 @@
+use ld_operacion 
+
+Select * 
+
+From dbo.Ruta
+
+Where Prov_id = '773'
+
+---------------------------------------------------------------
+
+use ld_operacion 
+
+Select * 
+
+From dbo.Proveedor
+
+Where Prov_Nombre LIKE '%Salvador%'
+
+---------------------------------------------------------------
+
+use ld_operacion 
+
+Select * 
+
+From Proveedor_Comprador
+
+row.Item("Ruta_Id").ToString
+
+
+Campo Prov_Email_CC
+
+---------------------------------------------------------------
+
+--Query para anulkación de órdenes
+
+use ld_operacion
+
+select 
+	Orden_Id,
+	s.sucursal_formato,
+	o.Suc_Id,
+	s.Suc_Nombre,
+	o.Prov_Id,
+	p.Prov_Nombre,
+	Orden_Costo_Total,
+	Orden_Fec_Autorizada,
+	Orden_Fecha_Entrega,
+	Orden_Solicita,
+	u.Usuario_Nombre,
+	u.Usuario_Apellido1,
+	u.Usuario_Apellido2,
+	Genera_Entrada,
+	p.Email_FillRate
+	
+
+from orden_loc_encabezado o
+
+left join dbo.Proveedor p ON p.Prov_Id = o.Prov_Id  
+left join dbo.Sucursal s On s.Suc_Id = o.Suc_Id
+left join Usuario u On u.Usuario_Id = o.Usuario_Id
+
+where 
+	Motivo_Anulacion IS NULL 
+	and Orden_Utilizada = 'no'
+	and Orden_Anulada = 'no'
+	and Orden_Fecha_Entrega < '20210113'
+	--and Orden_Id = 2387
+
+---------------------------------------------------------------
+
+--Buscar Tablas con cierta columna
+
+use ld_operacion
+
+SELECT c.name AS ColName, t.name AS TableName
+FROM sys.columns c
+    JOIN sys.tables t ON c.object_id = t.object_id
+WHERE c.name LIKE 'Suc_Nombre';

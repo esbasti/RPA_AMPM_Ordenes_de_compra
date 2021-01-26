@@ -1,0 +1,8 @@
+<body>
+<p><br/>
+Para dudas o consultas favor en enviarlas a soporte@sabanatech.com
+<br/>
+Saludos Cordiales,<br/>
+<br/>
+Bot<br/>
+<i></i></p>

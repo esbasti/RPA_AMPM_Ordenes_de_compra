@@ -1,0 +1,7 @@
+<body>
+<p>Estimados,<br/>
+<br/>
+El proceso de creación de órdenes de compra ha sido completado con éxito.<br/>
+<br/>
+<br/>
+<i></i></p>

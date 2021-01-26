@@ -1,0 +1,16 @@
+<body>
+<p>Buen@s días/Tardes,<br/>
+<br/>
+Se adjunta las órdenes de compra.<br/>
+<br/>
+<br/>
+Se incluye un total de <cantidadOrdenes> órdenes detalladas a continuación. Por favor cualquier inconsistencia entre el detalle y los adjuntos comunicarse con el departamento de compras. 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<strong>Este mensaje se ha generado automáticamente.</strong><br/>
+<strong>No conteste este correo, ya que no obtendrá respuesta.</strong><br/>
+<strong>En caso de consultas, póngase en contacto con el departamento de compras de AMPM - comprasecos@ampm.co.cr</strong><br/>
+<i></i></p>

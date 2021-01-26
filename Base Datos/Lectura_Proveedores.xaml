@@ -1,0 +1,275 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Lectura_Proveedores" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1172,2434" sap2010:WorkflowViewState.IdRef="Lectura_Proveedores_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="64">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="60">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Lectura_Proveedores" sap:VirtualizedContainerService.HintSize="1020,2329" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ui:DatabaseConnection" Name="dt_Connection" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_proveedores" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_rutas" />
+      <Variable x:TypeArguments="x:Int32" Name="hoyNumeroDia" />
+      <Variable x:TypeArguments="x:String" Name="diaDeRuta" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_excelProveedores" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="978,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Agregando proveedores a lista por trabajar&quot;]" />
+    <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="978,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[hoyNumeroDia]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">[Convert.ToInt32(DateTime.Now.DayOfWeek) +1]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:DatabaseConnect DatabaseConnection="[dt_Connection]" DisplayName="Connect PRODUCCION" sap:VirtualizedContainerService.HintSize="978,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_1" ProviderName="System.Data.SqlClient" ConnectionString="Data Source=10.0.0.4;User ID=sa" />
+    <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="978,229" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:DatabaseConnect DatabaseConnection="[dt_Connection]" DisplayName="Connect PRUEBAS" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_2" ProviderName="System.Data.SqlClient" ConnectionString="Data Source=SERVICIOS\MSSQLSERVER2014;User ID=sa" />
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DataTable="[dt_rutas]" DisplayName="Execute Query" ExistingDbConnection="[dt_Connection]" sap:VirtualizedContainerService.HintSize="978,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_2" Sql="use ld_operacion Select * From dbo.Ruta">
+      <ui:ExecuteQuery.Parameters>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:ExecuteQuery.Parameters>
+    </ui:ExecuteQuery>
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" DataTable="[dt_proveedores]" DisplayName="Execute Query" ExistingDbConnection="[dt_Connection]" sap:VirtualizedContainerService.HintSize="978,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" Sql="use ld_operacion Select proveedorBot.* , proveedor.Prov_Email_CC From Proveedor_Comprador AS proveedorBot LEFT JOIN dbo.Proveedor AS proveedor ON proveedorBot.Prov_Id = proveedor.Prov_Id">
+      <ui:ExecuteQuery.Parameters>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:ExecuteQuery.Parameters>
+    </ui:ExecuteQuery>
+    <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" ColumnName="Secuencia" DataTable="[dt_proveedores]" DisplayName="Ordenar tabla de datos" sap:VirtualizedContainerService.HintSize="978,22" sap2010:WorkflowViewState.IdRef="SortDataTable_1" Order="Ascending" OutputDataTable="[dt_proveedores]" SortOrder="Ascending" />
+    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_proveedores]" DisplayName="Para cada fila" sap:VirtualizedContainerService.HintSize="978,1320" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="928,1172" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sd:DataTable" Name="dt_rutasFiltradas" />
+              <Variable x:TypeArguments="x:Boolean" Default="False" Name="correrHoy" />
+              <Variable x:TypeArguments="x:Boolean" Default="False" Name="correrManana" />
+              <Variable x:TypeArguments="x:Boolean" Default="False" Name="correrPasadoManana" />
+              <Variable x:TypeArguments="x:String" Name="resultadoBusqueda" />
+              <Variable x:TypeArguments="scg:List(x:String)" Default="[new list(of string)]" Name="rutas" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="886,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Agregando proveedor: &quot;+row.Item(&quot;Prov_Nombre&quot;).ToString]" />
+            <ui:FilterDataTable DataTable="[dt_rutas]" DisplayName="Filtrar tabla de datos" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="886,59" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_rutasFiltradas]" SelectColumnsMode="Keep">
+              <ui:FilterDataTable.Filters>
+                <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+                  <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                    <ui:FilterOperationArgument.Column>
+                      <InArgument x:TypeArguments="x:String">["Prov_id"]</InArgument>
+                    </ui:FilterOperationArgument.Column>
+                    <ui:FilterOperationArgument.Operand>
+                      <InArgument x:TypeArguments="x:Object">[row.Item("prov_id")]</InArgument>
+                    </ui:FilterOperationArgument.Operand>
+                  </ui:FilterOperationArgument>
+                  <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+                    <ui:FilterOperationArgument.Column>
+                      <InArgument x:TypeArguments="x:String">["Ruta_Dia"]</InArgument>
+                    </ui:FilterOperationArgument.Column>
+                    <ui:FilterOperationArgument.Operand>
+                      <InArgument x:TypeArguments="x:Int32">[hoyNumeroDia]</InArgument>
+                    </ui:FilterOperationArgument.Operand>
+                  </ui:FilterOperationArgument>
+                </scg:List>
+              </ui:FilterDataTable.Filters>
+              <ui:FilterDataTable.SelectColumns>
+                <scg:List x:TypeArguments="InArgument" Capacity="4">
+                  <x:Null />
+                </scg:List>
+              </ui:FilterDataTable.SelectColumns>
+            </ui:FilterDataTable>
+            <If Condition="[row.Item(&quot;Secuencia&quot;).ToString = &quot;1&quot;]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="886,850" sap2010:WorkflowViewState.IdRef="If_2">
+              <If.Then>
+                <If Condition="[dt_rutasFiltradas.Rows.Count &gt; 0]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="706,702" sap2010:WorkflowViewState.IdRef="If_1">
+                  <If.Then>
+                    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="357,554" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:Int32" Name="counter" />
+                        <Variable x:TypeArguments="x:String" Name="rutaPrincipal" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="315,60" sap2010:WorkflowViewState.IdRef="Assign_16">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Boolean">[correrHoy]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="315,60" sap2010:WorkflowViewState.IdRef="Assign_18">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">[rutaPrincipal]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">[dt_rutasFiltradas.Rows(0).Item("Ruta_Id").ToString]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[dt_rutasFiltradas]" DisplayName="Para cada fila" sap:VirtualizedContainerService.HintSize="315,262" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+                        <ui:ForEachRow.Body>
+                          <ActivityAction x:TypeArguments="sd:DataRow">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row1" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Añadir elemento de la cola" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="AddQueueItem_1" Priority="Normal" QueueType="AMPM_Ordenes_de_compra" Reference="[row1.Item(&quot;Prov_Id&quot;).ToString]">
+                                <ui:AddQueueItem.ItemInformation>
+                                  <InArgument x:TypeArguments="x:String" x:Key="Nombre_Proveedor">[row.Item("Prov_Nombre").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="Comprador">[row.Item("Comprador").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="CEDI">[row.Item("prov_despacha_cedi").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="Tipo_Sugerido">[row.Item("Prov_Tipo_Sugerido").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="Secuencia">[row.Item("Secuencia").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="ID_Proveedor">[row.Item("Prov_Id").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="Email">[row.Item("Prov_Email_CC").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="Ruta_Default">[rutaPrincipal]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="Ruta_Actual">[row1.Item("Ruta_Id").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:String" x:Key="Ruta_Nombre">[row1.Item("Ruta_Nombre").ToString]</InArgument>
+                                  <InArgument x:TypeArguments="x:Boolean" x:Key="correrHoy">[correrHoy]</InArgument>
+                                </ui:AddQueueItem.ItemInformation>
+                              </ui:AddQueueItem>
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:ForEachRow.Body>
+                      </ui:ForEachRow>
+                    </Sequence>
+                  </If.Then>
+                  <If.Else>
+                    <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="304,214" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_17">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Boolean">[correrHoy]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <ui:AddQueueItem ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Añadir elemento de la cola" sap:VirtualizedContainerService.HintSize="262,22" sap2010:WorkflowViewState.IdRef="AddQueueItem_2" Priority="Normal" QueueType="AMPM_Ordenes_de_compra" Reference="[row.Item(&quot;Prov_Id&quot;).ToString]">
+                        <ui:AddQueueItem.ItemInformation>
+                          <InArgument x:TypeArguments="x:String" x:Key="Nombre_Proveedor">[row.Item("Prov_Nombre").ToString]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="Comprador">[row.Item("Comprador").ToString]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="CEDI">[row.Item("prov_despacha_cedi").ToString]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="Tipo_Sugerido">[row.Item("Prov_Tipo_Sugerido").ToString]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="Secuencia">[row.Item("Secuencia").ToString]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="ID_Proveedor">[row.Item("Prov_Id").ToString]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="Email">[row.Item("Prov_Email_CC").ToString]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="Ruta_Default">
+                            <Literal x:TypeArguments="x:String" Value="" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="Ruta_Actual">
+                            <Literal x:TypeArguments="x:String" Value="" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:Boolean" x:Key="correrHoy">[correrHoy]</InArgument>
+                        </ui:AddQueueItem.ItemInformation>
+                      </ui:AddQueueItem>
+                    </Sequence>
+                  </If.Else>
+                </If>
+              </If.Then>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+  </Sequence>
+</Activity>

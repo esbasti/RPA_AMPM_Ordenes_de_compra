@@ -1,0 +1,8 @@
+Server: 192.168.1.20\mssqlserver2014
+Login:  sa
+PSW:  
+DataBase: Ld_operacion
+Table:    Proveedor_Comprador
+
+
+Roger 6080-6204
