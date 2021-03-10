@@ -429,7 +429,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cb62a8e2-8e51-4f0b-9570-cf85de93e2d9" InformativeScreenshot="979c27e0b63ab4d796a321662562ce35" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal' /&gt;&lt;wnd ctrlname='FrmCompCentProcesaProveedoresDetalleCEDI' /&gt;&lt;ctrl name='The Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Opciones' role='property page' /&gt;&lt;ctrl name='Generar Ordenes de Compra' role='push button' /&gt;" TimeoutMS="60000">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cb62a8e2-8e51-4f0b-9570-cf85de93e2d9" InformativeScreenshot="979c27e0b63ab4d796a321662562ce35" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal' /&gt;&lt;wnd ctrlname='FrmCompCentProcesaProveedoresDetalleCEDI' /&gt;&lt;ctrl name='The Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Opciones' role='property page' /&gt;&lt;ctrl name='Generar Ordenes de Compra' role='push button' /&gt;" TimeoutMS="80000">
           <ui:Target.WaitForReady>
             <InArgument x:TypeArguments="ui:WaitForReady" />
           </ui:Target.WaitForReady>

@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1099,1787</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1170,1595</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
@@ -71,7 +71,7 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="1109,1722" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="1109,1490" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -84,9 +84,9 @@
         <InArgument x:TypeArguments="x:String" x:Key="in_folderPath">[in_folder_correos]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <If Condition="[CBool(in_TransactionItem.SpecificContent(&quot;correrHoy&quot;))]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1067,1275" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[CBool(in_TransactionItem.SpecificContent(&quot;correrHoy&quot;))]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1067,1043" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
-        <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="822,1127" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="822,895" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Boolean" Name="sinOrdenes" />
           </Sequence.Variables>
@@ -117,18 +117,6 @@
               </ui:InvokeWorkflowFile>
             </If.Else>
           </If>
-          <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="780,192" sap2010:WorkflowViewState.IdRef="CommentOut_2">
-            <ui:CommentOut.Body>
-              <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_5">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <Delay DisplayName="Retraso" Duration="00:00:30" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
-              </Sequence>
-            </ui:CommentOut.Body>
-          </ui:CommentOut>
           <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Apps_Enviar_Orden workflow" sap:VirtualizedContainerService.HintSize="780,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Portal de Aplicaciones\Apps_Enviar_Orden.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <InArgument x:TypeArguments="x:String" x:Key="in_nombreProveedor">[in_TransactionItem.SpecificContent("Nombre_Proveedor").ToString]</InArgument>

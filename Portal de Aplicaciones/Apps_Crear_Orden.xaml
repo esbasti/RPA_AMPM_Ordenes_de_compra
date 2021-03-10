@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>934,4271</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1170,4271</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Apps_Crear_Orden_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
@@ -508,10 +508,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cb62a8e2-8e51-4f0b-9570-cf85de93e2d9" InformativeScreenshot="979c27e0b63ab4d796a321662562ce35" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal' /&gt;&lt;wnd ctrlname='FrmCompCentProcesaProveedoresDetalle' /&gt;&lt;ctrl name='The Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Opciones' role='property page' /&gt;&lt;ctrl name='Generar Ordenes de Compra' role='push button' /&gt;">
-          <ui:Target.TimeoutMS>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:Target.TimeoutMS>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cb62a8e2-8e51-4f0b-9570-cf85de93e2d9" InformativeScreenshot="979c27e0b63ab4d796a321662562ce35" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal' /&gt;&lt;wnd ctrlname='FrmCompCentProcesaProveedoresDetalle' /&gt;&lt;ctrl name='The Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Opciones' role='property page' /&gt;&lt;ctrl name='Generar Ordenes de Compra' role='push button' /&gt;" TimeoutMS="80000">
           <ui:Target.WaitForReady>
             <InArgument x:TypeArguments="ui:WaitForReady" />
           </ui:Target.WaitForReady>

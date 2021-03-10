@@ -10681,3 +10681,42 @@ Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC PANADERIA LA ZARCE
 01/26/2021-7:31 AM
 Guardar_Reporte_Excel_OC FINALLY
 -------
+02/23/2021-8:33 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-15349.xls.xlsx
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-15349.xls.xlsx
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC PANADERIA LA ZARCERENA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC PANADERIA LA ZARCERENA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+02/23/2021-8:33 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
