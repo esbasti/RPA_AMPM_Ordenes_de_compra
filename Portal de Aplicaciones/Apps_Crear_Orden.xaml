@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Apps_Crear_Orden" this:Apps_Crear_Orden.in_tipoSugerido="Sugerido Secos" this:Apps_Crear_Orden.in_numeroProveedor="773" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Apps_Crear_Orden" this:Apps_Crear_Orden.in_tipoSugerido="Sugerido Secos" this:Apps_Crear_Orden.in_numeroProveedor="3071" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_tipoSugerido" Type="InArgument(x:String)" />
     <x:Property Name="in_numeroProveedor" Type="InArgument(x:String)" />
@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1170,4271</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1170,3960</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Apps_Crear_Orden_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
@@ -69,7 +69,7 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Apps_Crear_Orden" sap:VirtualizedContainerService.HintSize="755,4206" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Apps_Crear_Orden" sap:VirtualizedContainerService.HintSize="755,3855" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -331,7 +331,13 @@
         </ui:Target>
       </ui:Click.Target>
     </ui:Click>
-    <If Condition="[in_rutaDefault = in_rutaActual]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="713,548" sap2010:WorkflowViewState.IdRef="If_6">
+    <If Condition="[in_rutaDefault = in_rutaActual]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="713,51" sap2010:WorkflowViewState.IdRef="If_6">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
       <If.Else>
         <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="376,400" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
@@ -421,6 +427,28 @@
       </ui:Click.CursorPosition>
       <ui:Click.Target>
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="de4e52c9-f849-4f85-927d-9834ccb91cb2" InformativeScreenshot="74ce426480836c067d467a0562e7365d" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal' /&gt;&lt;wnd ctrlname='FrmCompCentResumen' /&gt;&lt;ctrl name='The Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Opciones' role='property page' /&gt;&lt;ctrl name='Siguiente' role='push button' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:Click.Target>
+    </ui:Click>
+    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Surtido Completo" sap:VirtualizedContainerService.HintSize="713,106" sap2010:WorkflowViewState.IdRef="Click_24" KeyModifiers="None" MouseButton="BTN_LEFT">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition Position="Center">
+          <ui:CursorPosition.OffsetX>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetX>
+          <ui:CursorPosition.OffsetY>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetY>
+        </ui:CursorPosition>
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c54c2067-0d20-4938-9b58-4edb4cf057f3" InformativeScreenshot="da4e968afc8ef845383f90ec1f29877d" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmCompCentParametrosSKU' /&gt;&lt;ctrl name='The Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Opciones' role='property page' /&gt;&lt;ctrl name='Surtido Completo' role='push button' /&gt;">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
