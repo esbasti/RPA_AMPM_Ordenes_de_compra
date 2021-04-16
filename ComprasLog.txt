@@ -10720,3 +10720,42 @@ Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC PANADERIA LA ZARCE
 02/23/2021-8:33 AM
 Guardar_Reporte_Excel_OC FINALLY
 -------
+03/11/2021-8:10 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-15760.xls.xlsx
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-15760.xls.xlsx
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC METRO CONECTANDO S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC METRO CONECTANDO S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+03/11/2021-8:10 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------

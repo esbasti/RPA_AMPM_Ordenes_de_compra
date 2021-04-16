@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Process" this:Process.in_folder_correos="C:\Correos\" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Process" this:Process.in_folder_correos="C:\Correos\" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property sap2010:Annotation.AnnotationText="Transaction item to be processed." Name="in_TransactionItem" Type="InArgument(ui:QueueItem)" />
     <x:Property sap2010:Annotation.AnnotationText="Dictionary structure to store configuration data of the process (settings, constants and assets)." Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1170,1595</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1244,2003</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
@@ -69,55 +69,82 @@
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
       <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="1109,1490" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="1254,1938" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="1067,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Iniciando órdenes de compra para: &quot;+in_TransactionItem.SpecificContent(&quot;Secuencia&quot;).ToString + &quot; - &quot;+ in_TransactionItem.SpecificContent(&quot;ID_Proveedor&quot;).ToString + &quot; - &quot; + in_TransactionItem.SpecificContent(&quot;Nombre_Proveedor&quot;).ToString]" />
-    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Files_Borrar_Files workflow" sap:VirtualizedContainerService.HintSize="1067,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Base Datos\Files_Borrar_Files.xaml">
+    <ui:LogMessage DisplayName="Registrar mensaje" sap:VirtualizedContainerService.HintSize="1212,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Iniciando órdenes de compra para: &quot;+in_TransactionItem.SpecificContent(&quot;Secuencia&quot;).ToString + &quot; - &quot;+ in_TransactionItem.SpecificContent(&quot;ID_Proveedor&quot;).ToString + &quot; - &quot; + in_TransactionItem.SpecificContent(&quot;Nombre_Proveedor&quot;).ToString]" />
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Files_Borrar_Files workflow" sap:VirtualizedContainerService.HintSize="1212,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Base Datos\Files_Borrar_Files.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="in_folderPath">[in_folder_correos]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <If Condition="[CBool(in_TransactionItem.SpecificContent(&quot;correrHoy&quot;))]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1067,1043" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[CBool(in_TransactionItem.SpecificContent(&quot;correrHoy&quot;))]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="1212,1491" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
-        <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="822,895" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Secuencia" sap:VirtualizedContainerService.HintSize="967,1343" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Boolean" Name="sinOrdenes" />
+            <Variable x:TypeArguments="x:Boolean" Name="generarOrden">
+              <Variable.Default>
+                <Literal x:TypeArguments="x:Boolean" Value="True" />
+              </Variable.Default>
+            </Variable>
           </Sequence.Variables>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <If Condition="[in_TransactionItem.SpecificContent(&quot;CEDI&quot;).ToString = &quot;si&quot;]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="780,260" sap2010:WorkflowViewState.IdRef="If_1">
+          <If Condition="[in_TransactionItem.RetryNo &gt; 0]" sap:VirtualizedContainerService.HintSize="925,260" sap2010:WorkflowViewState.IdRef="If_4">
             <If.Then>
-              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Apps_CEDI_Crear_Orden workflow" sap:VirtualizedContainerService.HintSize="379,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Portal de Aplicaciones\Apps_CEDI_Crear_Orden.xaml">
+              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke DB_Verificar_Orden workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Base Datos\DB_Verificar_Orden.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_tipoSugerido">[in_TransactionItem.SpecificContent("Tipo_Sugerido").ToString]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_numeroProveedor">[in_TransactionItem.SpecificContent("ID_Proveedor").ToString]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_rutaDefault">[in_TransactionItem.SpecificContent("Ruta_Default").ToString]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_rutaActual">[in_TransactionItem.SpecificContent("Ruta_Actual").ToString]</InArgument>
+                  <InArgument x:TypeArguments="x:Int32" x:Key="in_numeroProveedor">
+                    <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="Cint(in_TransactionItem.SpecificContent(&quot;ID_Proveedor&quot;).ToString)" />
+                  </InArgument>
+                  <InArgument x:TypeArguments="s:DateTime" x:Key="in_fechaActual">
+                    <mva:VisualBasicValue x:TypeArguments="s:DateTime" ExpressionText="now.addDays(0)" />
+                  </InArgument>
+                  <OutArgument x:TypeArguments="x:Boolean" x:Key="out_generarOrden">
+                    <mva:VisualBasicReference x:TypeArguments="x:Boolean" ExpressionText="generarOrden" />
+                  </OutArgument>
                 </ui:InvokeWorkflowFile.Arguments>
               </ui:InvokeWorkflowFile>
             </If.Then>
-            <If.Else>
-              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Apps_Crear_Orden workflow" sap:VirtualizedContainerService.HintSize="356,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Portal de Aplicaciones\Apps_Crear_Orden.xaml">
-                <ui:InvokeWorkflowFile.Arguments>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_tipoSugerido">[in_TransactionItem.SpecificContent("Tipo_Sugerido").ToString]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_numeroProveedor">[in_TransactionItem.SpecificContent("ID_Proveedor").ToString]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_rutaDefault">[in_TransactionItem.SpecificContent("Ruta_Default").ToString]</InArgument>
-                  <InArgument x:TypeArguments="x:String" x:Key="in_rutaActual">[in_TransactionItem.SpecificContent("Ruta_Actual").ToString]</InArgument>
-                </ui:InvokeWorkflowFile.Arguments>
-              </ui:InvokeWorkflowFile>
-            </If.Else>
           </If>
-          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Apps_Enviar_Orden workflow" sap:VirtualizedContainerService.HintSize="780,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Portal de Aplicaciones\Apps_Enviar_Orden.xaml">
+          <If Condition="[generarOrden]" sap:VirtualizedContainerService.HintSize="925,408" sap2010:WorkflowViewState.IdRef="If_5">
+            <If.Then>
+              <If Condition="[in_TransactionItem.SpecificContent(&quot;CEDI&quot;).ToString = &quot;si&quot;]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="780,260" sap2010:WorkflowViewState.IdRef="If_1">
+                <If.Then>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Apps_CEDI_Crear_Orden workflow" sap:VirtualizedContainerService.HintSize="379,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Portal de Aplicaciones\Apps_CEDI_Crear_Orden.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_tipoSugerido">[in_TransactionItem.SpecificContent("Tipo_Sugerido").ToString]</InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_numeroProveedor">[in_TransactionItem.SpecificContent("ID_Proveedor").ToString]</InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_rutaDefault">[in_TransactionItem.SpecificContent("Ruta_Default").ToString]</InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_rutaActual">[in_TransactionItem.SpecificContent("Ruta_Actual").ToString]</InArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
+                </If.Then>
+                <If.Else>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Apps_Crear_Orden workflow" sap:VirtualizedContainerService.HintSize="356,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Portal de Aplicaciones\Apps_Crear_Orden.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_tipoSugerido">[in_TransactionItem.SpecificContent("Tipo_Sugerido").ToString]</InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_numeroProveedor">[in_TransactionItem.SpecificContent("ID_Proveedor").ToString]</InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_rutaDefault">[in_TransactionItem.SpecificContent("Ruta_Default").ToString]</InArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="in_rutaActual">[in_TransactionItem.SpecificContent("Ruta_Actual").ToString]</InArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
+                </If.Else>
+              </If>
+            </If.Then>
+          </If>
+          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Apps_Enviar_Orden workflow" sap:VirtualizedContainerService.HintSize="925,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Portal de Aplicaciones\Apps_Enviar_Orden.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <InArgument x:TypeArguments="x:String" x:Key="in_nombreProveedor">[in_TransactionItem.SpecificContent("Nombre_Proveedor").ToString]</InArgument>
               <InArgument x:TypeArguments="x:String" x:Key="in_numeroProveedor">[in_TransactionItem.SpecificContent("ID_Proveedor").ToString]</InArgument>
@@ -127,7 +154,7 @@
               <InArgument x:TypeArguments="x:String" x:Key="in_idRuta">[in_TransactionItem.SpecificContent("Ruta_Actual").ToString]</InArgument>
             </ui:InvokeWorkflowFile.Arguments>
           </ui:InvokeWorkflowFile>
-          <If Condition="[sinOrdenes]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="780,260" sap2010:WorkflowViewState.IdRef="If_3">
+          <If Condition="[sinOrdenes]" DisplayName="Si" sap:VirtualizedContainerService.HintSize="925,260" sap2010:WorkflowViewState.IdRef="If_3">
             <If.Then>
               <Throw DisplayName="Lanzar excepción" Exception="[New BusinessRuleException(&quot;Sin órdenes disponibles&quot;)]" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Throw_2" />
             </If.Then>
@@ -141,7 +168,7 @@
               </ui:InvokeWorkflowFile>
             </If.Else>
           </If>
-          <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="780,51" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+          <ui:CommentOut DisplayName="Comentar" sap:VirtualizedContainerService.HintSize="925,51" sap2010:WorkflowViewState.IdRef="CommentOut_1">
             <ui:CommentOut.Body>
               <Sequence DisplayName="Actividades ignoradas" sap:VirtualizedContainerService.HintSize="376,204" sap2010:WorkflowViewState.IdRef="Sequence_4">
                 <sap:WorkflowViewStateService.ViewState>
