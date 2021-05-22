@@ -10759,3 +10759,81 @@ Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC METRO CONECTANDO S
 03/11/2021-8:10 AM
 Guardar_Reporte_Excel_OC FINALLY
 -------
+04/19/2021-10:34 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+04/19/2021-10:34 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+04/19/2021-10:34 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-16723.xls.xlsx
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-16723.xls.xlsx
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC DISTRIBUIDORA PARECA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC DISTRIBUIDORA PARECA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+04/19/2021-10:35 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+04/19/2021-10:37 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-16724.xls.xlsx
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-16724.xls.xlsx
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC OLE GOURMET S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC OLE GOURMET S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+04/19/2021-10:37 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
