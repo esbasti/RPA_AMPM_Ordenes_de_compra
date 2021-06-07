@@ -10837,3 +10837,561 @@ Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC OLE GOURMET S.A. -
 04/19/2021-10:37 AM
 Guardar_Reporte_Excel_OC FINALLY
 -------
+06/07/2021-9:49 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18017.xls.xlsx
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18017.xls.xlsx
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC DISTRIBUIDORA PARECA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC DISTRIBUIDORA PARECA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:49 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:55 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18005.xls.xlsx
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18005.xls.xlsx
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:55 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\1-18018.xls.xlsx
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\1-18018.xls.xlsx
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC FCA FABRICA DE CERVEZA ARTESANAL S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC FCA FABRICA DE CERVEZA ARTESANAL S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:55 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:56 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18006.xls.xlsx
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18006.xls.xlsx
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:56 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:56 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\1-18020.xls.xlsx
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\1-18020.xls.xlsx
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC FCA FABRICA DE CERVEZA ARTESANAL S.A. ( 2 ) - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC FCA FABRICA DE CERVEZA ARTESANAL S.A. ( 2 ) - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:57 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:58 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18007.xls.xlsx
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18007.xls.xlsx
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:58 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\1-18021.xls.xlsx
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\1-18021.xls.xlsx
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC REPRESENTACIONES AD S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC REPRESENTACIONES AD S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:58 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:59 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18008.xls.xlsx
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18008.xls.xlsx
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:59 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\1-18022.xls.xlsx
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\1-18022.xls.xlsx
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC VMV COSMETIC GROUP COSTA RICA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC VMV COSMETIC GROUP COSTA RICA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-9:59 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:01 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18023.xls.xlsx
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18023.xls.xlsx
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC ABBOTT HEALTHCARE COSTA RICA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC ABBOTT HEALTHCARE COSTA RICA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:01 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:02 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18011.xls.xlsx
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18011.xls.xlsx
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC OLE GOURMET S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC OLE GOURMET S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:02 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:03 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18011.xls.xlsx
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18011.xls.xlsx
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:03 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\1-18024.xls.xlsx
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\1-18024.xls.xlsx
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:03 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:04 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:04 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC OLE GOURMET S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:04 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC OLE GOURMET S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:04 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:05 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18012.xls.xlsx
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18012.xls.xlsx
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:05 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\1-18025.xls.xlsx
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\1-18025.xls.xlsx
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC IMPORTADORA DE VINOS Y QUESOS ARRSAL, S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC IMPORTADORA DE VINOS Y QUESOS ARRSAL, S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:05 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:06 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18012.xls.xlsx
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18012.xls.xlsx
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:06 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\1-18025.xls.xlsx
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\1-18025.xls.xlsx
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC IMPORTADORA DE VINOS Y QUESOS ARRSAL, S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC IMPORTADORA DE VINOS Y QUESOS ARRSAL, S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/07/2021-10:06 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------

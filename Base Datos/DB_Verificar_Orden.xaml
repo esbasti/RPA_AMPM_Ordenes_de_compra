@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>2690,1386</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>2690,1426</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>DB_Verificar_Orden_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="52">
@@ -93,19 +93,19 @@
         <InArgument x:TypeArguments="s:DateTime">[in_fechaActual.AddHours(-DateTime.Now.Hour).AddMinutes(-DateTime.Now.Minute).AddSeconds(-DateTime.Now.Second)]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:DatabaseConnect DatabaseConnection="[dt_Connection]" DisplayName="Connect PRODUCCION" sap:VirtualizedContainerService.HintSize="569,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_1" ProviderName="System.Data.SqlClient" ConnectionString="Data Source=192.168.253.22;User ID=sa" />
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="569,229" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="569,229" sap2010:WorkflowViewState.IdRef="CommentOut_2">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,151" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:DatabaseConnect DatabaseConnection="[dt_Connection]" DisplayName="Connect PRODUCCION" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_2" ProviderName="System.Data.SqlClient" ConnectionString="Data Source=10.0.0.4;User ID=sa" />
+          <ui:DatabaseConnect DatabaseConnection="[dt_Connection]" DisplayName="Connect PRODUCCION" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_1" ProviderName="System.Data.SqlClient" ConnectionString="Data Source=192.168.253.22;User ID=sa" />
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
+    <ui:DatabaseConnect DatabaseConnection="[dt_Connection]" DisplayName="Connect PRODUCCION" sap:VirtualizedContainerService.HintSize="569,59" sap2010:WorkflowViewState.IdRef="DatabaseConnect_2" ProviderName="System.Data.SqlClient" ConnectionString="Data Source=10.0.0.4;User ID=sa" />
     <ui:ExecuteQuery ContinueOnError="{x:Null}" CommandType="Text" DataTable="[dt_ordenes]" DisplayName="Execute Query" ExistingDbConnection="[dt_Connection]" sap:VirtualizedContainerService.HintSize="569,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" Sql="use ld_operacion&#xA;&#xA;select *&#xA;&#xA;from orden_loc_encabezado o&#xA;&#xA;where &#xA;&#xA;&#x9;Prov_Id = @in_numeroProveedor&#xA;&#x9;and Orden_Fecha &gt; @in_fechaActual&#xA;&#x9;" TimeoutMS="60000">
       <ui:ExecuteQuery.Parameters>
         <InArgument x:TypeArguments="x:Int32" x:Key="in_numeroProveedor">[in_numeroProveedor]</InArgument>

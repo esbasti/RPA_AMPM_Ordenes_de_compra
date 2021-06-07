@@ -9,17 +9,15 @@
 </tr>
 <tr>
 <td>1</td>
-<td>2941</td>
-<td>PANADERIA LA ZARCERENA S.A.</td>
-<td>967</td>
+<td>2339</td>
+<td>FCA FABRICA DE CERVEZA ARTESANAL S.A.</td>
+<td>878</td>
 <td>Excepción</td>
 <td>Could not find the UI element corresponding to this selector:
 [1] <wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal'/>
-[2] <wnd ctrlname='FrmCompCentProcesaProveedoresDetalleCEDI'/>
-[3] <ctrl name='The Ribbon' role='property page'/>
-[4] <ctrl name='Lower Ribbon' role='pane'/>
-[5] <ctrl name='Opciones' role='property page'/>
-[6] <ctrl name='Generar Ordenes de Compra' role='push button'/>
+[2] <wnd ctrlname='FrmCompCentProveedoresEmail'/>
+[3] <wnd ctrlname='GroupControl1'/>
+[4] <wnd ctrlname='chkProveedor'/>
 
 Search failed at selector tag:
 [1] <wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal'/>
@@ -29,8 +27,16 @@ The closest matches found are:
 </tr>
 <tr>
 <td>1</td>
-<td>3764</td>
-<td>NORKA LTDA</td>
+<td>2046</td>
+<td>METRO CONECTANDO S.A.</td>
+<td></td>
+<td>Excepción</td>
+<td>Sin ruta programada para hoy</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2941</td>
+<td>PANADERIA LA ZARCERENA S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
@@ -45,32 +51,16 @@ The closest matches found are:
 </tr>
 <tr>
 <td>1</td>
-<td>2339</td>
-<td>FCA FABRICA DE CERVEZA ARTESANAL S.A.</td>
-<td></td>
-<td>Excepción</td>
-<td>Sin ruta programada para hoy</td>
-</tr>
-<tr>
-<td>1</td>
-<td>2046</td>
-<td>METRO CONECTANDO S.A.</td>
+<td>3764</td>
+<td>NORKA LTDA</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
 </tr>
 <tr>
 <td>2</td>
-<td>3807</td>
-<td>PROYECTOS DE INVERSION ALMO S.A.</td>
-<td></td>
-<td>Excepción</td>
-<td>Sin ruta programada para hoy</td>
-</tr>
-<tr>
-<td>2</td>
-<td>3897</td>
-<td>FCA FABRICA DE CERVEZA ARTESANAL S.A. ( 2 )</td>
+<td>1561</td>
+<td>NATURAL SINS LIMITADA</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
@@ -85,16 +75,32 @@ The closest matches found are:
 </tr>
 <tr>
 <td>2</td>
-<td>1561</td>
-<td>NATURAL SINS LIMITADA</td>
+<td>3047</td>
+<td>LAS ALINADAS S.A.</td>
+<td></td>
+<td>Excepción</td>
+<td>Sin ruta programada para hoy</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3807</td>
+<td>PROYECTOS DE INVERSION ALMO S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
 </tr>
 <tr>
 <td>3</td>
-<td>3787</td>
-<td>MONDAISA S.A.</td>
+<td>2737</td>
+<td>DIST. DE PRODUCTOS DE ALTA CALIDAD DIPAC S.A.</td>
+<td></td>
+<td>Excepción</td>
+<td>Sin ruta programada para hoy</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3464</td>
+<td>INMOBILIARIA BATALLA DE LOS ROBLES S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
@@ -109,24 +115,16 @@ The closest matches found are:
 </tr>
 <tr>
 <td>3</td>
-<td>2737</td>
-<td>DIST. DE PRODUCTOS DE ALTA CALIDAD DIPAC S.A.</td>
+<td>3787</td>
+<td>MONDAISA S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
 </tr>
 <tr>
 <td>4</td>
-<td>3086</td>
-<td>DAFESA S.A.</td>
-<td></td>
-<td>Excepción</td>
-<td>Sin ruta programada para hoy</td>
-</tr>
-<tr>
-<td>4</td>
-<td>3185</td>
-<td>REPRESENTACIONES AD S.A.</td>
+<td>375</td>
+<td>DISTRIBUIDORA PANAMERICANA DE LICORES S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
@@ -141,24 +139,8 @@ The closest matches found are:
 </tr>
 <tr>
 <td>4</td>
-<td>375</td>
-<td>DISTRIBUIDORA PANAMERICANA DE LICORES S.A.</td>
-<td></td>
-<td>Excepción</td>
-<td>Sin ruta programada para hoy</td>
-</tr>
-<tr>
-<td>5</td>
-<td>3799</td>
-<td>GRUPO GL IMPORTACIONES DE CICLISMO LIMITADA</td>
-<td></td>
-<td>Excepción</td>
-<td>Sin ruta programada para hoy</td>
-</tr>
-<tr>
-<td>5</td>
-<td>3824</td>
-<td>VMV COSMETIC GROUP COSTA RICA S.A.</td>
+<td>3086</td>
+<td>DAFESA S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
@@ -172,6 +154,22 @@ The closest matches found are:
 <td>Sin ruta programada para hoy</td>
 </tr>
 <tr>
+<td>5</td>
+<td>2996</td>
+<td>ECOSUNRISE GLOBAL COMPANY (ECO)</td>
+<td></td>
+<td>Excepción</td>
+<td>Sin ruta programada para hoy</td>
+</tr>
+<tr>
+<td>5</td>
+<td>3799</td>
+<td>GRUPO GL IMPORTACIONES DE CICLISMO LIMITADA</td>
+<td></td>
+<td>Excepción</td>
+<td>Sin ruta programada para hoy</td>
+</tr>
+<tr>
 <td>6</td>
 <td>3043</td>
 <td>INVERSIONES MABAPA I.M. S. A.</td>
@@ -180,9 +178,9 @@ The closest matches found are:
 <td>Sin ruta programada para hoy</td>
 </tr>
 <tr>
-<td>7</td>
-<td>3137</td>
-<td>ABBOTT HEALTHCARE COSTA RICA S.A.</td>
+<td>6</td>
+<td>3816</td>
+<td>SABO INTERNACIONAL S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
@@ -196,17 +194,17 @@ The closest matches found are:
 <td>Sin ruta programada para hoy</td>
 </tr>
 <tr>
-<td>8</td>
-<td>2369</td>
-<td>OLE GOURMET S.A.</td>
+<td>7</td>
+<td>3176</td>
+<td>RICANTE CR S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
 </tr>
 <tr>
-<td>9</td>
-<td>1506</td>
-<td>IMPORTADORA DE VINOS Y QUESOS ARRSAL, S.A.</td>
+<td>7</td>
+<td>3808</td>
+<td>DISTRIBUIDORA FARMANOVA S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
@@ -223,14 +221,6 @@ The closest matches found are:
 <td>10</td>
 <td>3658</td>
 <td>NUTRISOL VITE S.A.</td>
-<td></td>
-<td>Excepción</td>
-<td>Sin ruta programada para hoy</td>
-</tr>
-<tr>
-<td>10</td>
-<td>3902</td>
-<td>DISTRIBUIDORA PARECA S.A.</td>
 <td></td>
 <td>Excepción</td>
 <td>Sin ruta programada para hoy</td>
@@ -277,25 +267,17 @@ The closest matches found are:
 </tr>
 <tr>
 <td>1</td>
-<td>2941</td>
-<td>PANADERIA LA ZARCERENA S.A.</td>
-<td>967</td>
+<td>2339</td>
+<td>FCA FABRICA DE CERVEZA ARTESANAL S.A.</td>
+<td>472</td>
 <td>Procesado</td>
 <td></td>
 </tr>
 <tr>
 <td>2</td>
-<td>3047</td>
-<td>LAS ALINADAS S.A.</td>
-<td>690</td>
-<td>Procesado</td>
-<td></td>
-</tr>
-<tr>
-<td>3</td>
-<td>3464</td>
-<td>INMOBILIARIA BATALLA DE LOS ROBLES S.A.</td>
-<td>806</td>
+<td>3897</td>
+<td>FCA FABRICA DE CERVEZA ARTESANAL S.A. ( 2 )</td>
+<td>954</td>
 <td>Procesado</td>
 <td></td>
 </tr>
@@ -303,31 +285,23 @@ The closest matches found are:
 <td>3</td>
 <td>3071</td>
 <td>COOPERATIVA MATADERO NACIONAL DE MONTECILLOS R.L.</td>
-<td>696</td>
+<td>695</td>
+<td>Procesado</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>3185</td>
+<td>REPRESENTACIONES AD S.A.</td>
+<td>740</td>
 <td>Procesado</td>
 <td></td>
 </tr>
 <tr>
 <td>5</td>
-<td>2996</td>
-<td>ECOSUNRISE GLOBAL COMPANY (ECO)</td>
-<td>930</td>
-<td>Procesado</td>
-<td></td>
-</tr>
-<tr>
-<td>5</td>
-<td>2996</td>
-<td>ECOSUNRISE GLOBAL COMPANY (ECO)</td>
-<td>713</td>
-<td>Procesado</td>
-<td></td>
-</tr>
-<tr>
-<td>6</td>
-<td>3816</td>
-<td>SABO INTERNACIONAL S.A.</td>
-<td>909</td>
+<td>3824</td>
+<td>VMV COSMETIC GROUP COSTA RICA S.A.</td>
+<td>939</td>
 <td>Procesado</td>
 <td></td>
 </tr>
@@ -335,23 +309,55 @@ The closest matches found are:
 <td>6</td>
 <td>2348</td>
 <td>MALACRIANZA DISTRIBUCION S.A.</td>
-<td>349</td>
+<td>341</td>
 <td>Procesado</td>
 <td></td>
 </tr>
 <tr>
 <td>7</td>
-<td>3808</td>
-<td>DISTRIBUIDORA FARMANOVA S.A.</td>
-<td>908</td>
+<td>3137</td>
+<td>ABBOTT HEALTHCARE COSTA RICA S.A.</td>
+<td>734</td>
 <td>Procesado</td>
 <td></td>
 </tr>
 <tr>
-<td>7</td>
-<td>3176</td>
-<td>RICANTE CR S.A.</td>
-<td>746</td>
+<td>8</td>
+<td>2369</td>
+<td>OLE GOURMET S.A.</td>
+<td>929</td>
+<td>Procesado</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>2369</td>
+<td>OLE GOURMET S.A.</td>
+<td>892</td>
+<td>Procesado</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>1506</td>
+<td>IMPORTADORA DE VINOS Y QUESOS ARRSAL, S.A.</td>
+<td>825</td>
+<td>Procesado</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>1506</td>
+<td>IMPORTADORA DE VINOS Y QUESOS ARRSAL, S.A.</td>
+<td>314</td>
+<td>Procesado</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>3902</td>
+<td>DISTRIBUIDORA PARECA S.A.</td>
+<td>950</td>
 <td>Procesado</td>
 <td></td>
 </tr>

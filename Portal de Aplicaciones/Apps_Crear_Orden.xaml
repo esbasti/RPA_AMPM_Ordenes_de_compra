@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1170,3960</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>2690,4276</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Apps_Crear_Orden_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
@@ -69,7 +69,7 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Apps_Crear_Orden" sap:VirtualizedContainerService.HintSize="755,3855" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Apps_Crear_Orden" sap:VirtualizedContainerService.HintSize="755,4171" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -587,7 +587,7 @@
         </ui:Target>
       </ui:Click.Target>
     </ui:Click>
-    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Cerrar" sap:VirtualizedContainerService.HintSize="713,106" sap2010:WorkflowViewState.IdRef="Click_22" KeyModifiers="None" MouseButton="BTN_LEFT">
+    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click Aceptar" sap:VirtualizedContainerService.HintSize="713,106" sap2010:WorkflowViewState.IdRef="Click_25" KeyModifiers="None" MouseButton="BTN_LEFT">
       <ui:Click.CursorPosition>
         <ui:CursorPosition Position="Center">
           <ui:CursorPosition.OffsetX>
@@ -599,16 +599,46 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="52a3b6fb-46d7-4d27-956e-cdcc9f5e3fc6" InformativeScreenshot="a9e0caaeffcc76970ad64107a7faa846" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmCompCentGeneraOrdenCompras' /&gt;&lt;ctrl name='The Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Opciones' role='property page' /&gt;&lt;ctrl name='Salir' role='push button' /&gt;">
-          <ui:Target.TimeoutMS>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:Target.TimeoutMS>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5c0b891b-243b-4446-a167-4c29ce127204" InformativeScreenshot="a79f01365eedd8788949b60e411e76ba" Selector="&lt;wnd app='modulo compra centralizada.exe' cls='#32770' title='Informacion' /&gt;&lt;wnd ctrlid='2' title='Aceptar' /&gt;" TimeoutMS="5000">
           <ui:Target.WaitForReady>
             <InArgument x:TypeArguments="ui:WaitForReady" />
           </ui:Target.WaitForReady>
         </ui:Target>
       </ui:Click.Target>
     </ui:Click>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="713,276" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Cerrar" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_22" KeyModifiers="None" MouseButton="BTN_LEFT">
+            <ui:Click.CursorPosition>
+              <ui:CursorPosition Position="Center">
+                <ui:CursorPosition.OffsetX>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetX>
+                <ui:CursorPosition.OffsetY>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:CursorPosition.OffsetY>
+              </ui:CursorPosition>
+            </ui:Click.CursorPosition>
+            <ui:Click.Target>
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="52a3b6fb-46d7-4d27-956e-cdcc9f5e3fc6" InformativeScreenshot="a9e0caaeffcc76970ad64107a7faa846" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmCompCentGeneraOrdenCompras' /&gt;&lt;ctrl name='The Ribbon' role='property page' /&gt;&lt;ctrl name='Lower Ribbon' role='pane' /&gt;&lt;ctrl name='Opciones' role='property page' /&gt;&lt;ctrl name='Salir' role='push button' /&gt;">
+                <ui:Target.TimeoutMS>
+                  <InArgument x:TypeArguments="x:Int32" />
+                </ui:Target.TimeoutMS>
+                <ui:Target.WaitForReady>
+                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                </ui:Target.WaitForReady>
+              </ui:Target>
+            </ui:Click.Target>
+          </ui:Click>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
     <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Aceptar" sap:VirtualizedContainerService.HintSize="713,106" sap2010:WorkflowViewState.IdRef="Click_23" KeyModifiers="None" MouseButton="BTN_LEFT">
       <ui:Click.CursorPosition>
         <ui:CursorPosition Position="Center">
