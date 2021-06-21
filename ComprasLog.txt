@@ -11395,3 +11395,81 @@ Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC IMPORTADORA DE VIN
 06/07/2021-10:06 AM
 Guardar_Reporte_Excel_OC FINALLY
 -------
+06/18/2021-1:28 PM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18366.xls.xlsx
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18366.xls.xlsx
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC LA NACIONAL S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC LA NACIONAL S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/18/2021-1:28 PM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/21/2021-10:34 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-1032680.xls.xlsx
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-1032680.xls.xlsx
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC MALACRIANZA DISTRIBUCION S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC MALACRIANZA DISTRIBUCION S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/21/2021-10:34 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
