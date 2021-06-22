@@ -8,7 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1170,4333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>2690,4333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Apps_Crear_Orden_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="26">
@@ -407,10 +407,7 @@
         </ui:CursorPosition>
       </ui:ClickText.CursorPosition>
       <ui:ClickText.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f4147753-7b25-4c22-ae2f-0992042c4dee" InformativeScreenshot="e599685679a6f9937734896c221e3de7" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal' /&gt;&lt;wnd ctrlname='FrmCompCentProcesaProveedoresCEDI' /&gt;&lt;wnd ctrlname='GroupControl1' /&gt;&lt;wnd ctrlname='lvwProveedores' /&gt;">
-          <ui:Target.TimeoutMS>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:Target.TimeoutMS>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f4147753-7b25-4c22-ae2f-0992042c4dee" InformativeScreenshot="e599685679a6f9937734896c221e3de7" Selector="&lt;wnd app='modulo compra centralizada.exe' ctrlname='FrmPrincipal' /&gt;&lt;wnd ctrlname='FrmCompCentProcesaProveedoresCEDI' /&gt;&lt;wnd ctrlname='GroupControl1' /&gt;&lt;wnd ctrlname='lvwProveedores' /&gt;" TimeoutMS="180000">
           <ui:Target.WaitForReady>
             <InArgument x:TypeArguments="ui:WaitForReady" />
           </ui:Target.WaitForReady>
@@ -511,10 +508,7 @@
         </ui:CursorPosition>
       </ui:Click.CursorPosition>
       <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="129b9da0-78ef-41c7-9723-9dcc8afbfa94" InformativeScreenshot="d8d88e33f0cdfecd665109190fd261b0" Selector="&lt;wnd app='modulo compra centralizada.exe' cls='#32770' title='Informacion' /&gt;&lt;wnd ctrlid='2' title='Aceptar' /&gt;">
-          <ui:Target.TimeoutMS>
-            <InArgument x:TypeArguments="x:Int32" />
-          </ui:Target.TimeoutMS>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="129b9da0-78ef-41c7-9723-9dcc8afbfa94" InformativeScreenshot="d8d88e33f0cdfecd665109190fd261b0" Selector="&lt;wnd app='modulo compra centralizada.exe' cls='#32770' title='Informacion' /&gt;&lt;wnd ctrlid='2' title='Aceptar' /&gt;" TimeoutMS="180000">
           <ui:Target.WaitForReady>
             <InArgument x:TypeArguments="ui:WaitForReady" />
           </ui:Target.WaitForReady>

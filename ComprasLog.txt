@@ -11473,3 +11473,42 @@ Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC MALACRIANZA DISTRI
 06/21/2021-10:34 AM
 Guardar_Reporte_Excel_OC FINALLY
 -------
+06/22/2021-9:16 AM
+Inicia Metodo ProcesaDetalleEstandard
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC INI DETALLE
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\0-18443.xls.xlsx
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\0-18443.xls.xlsx
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC INICIA ENCABEZADO - despues declaracion variable
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC INI TOTALES
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC INI GUARDADO : C:\CORREOS\Resumen OC DISTRIBUIDORA FARMANOVA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC FIN GUARDADO : C:\CORREOS\Resumen OC DISTRIBUIDORA FARMANOVA S.A. - INVERSIONES AMPM, S.A.xls.xlsx
+-------
+06/22/2021-9:16 AM
+Guardar_Reporte_Excel_OC FINALLY
+-------
